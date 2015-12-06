@@ -30,7 +30,6 @@ import lk.ac.mrt.cse.dbs.simpleexpensemanager.data.model.Transaction;
  */
 public class InMemoryTransactionDAO implements TransactionDAO {
     private final List<Transaction> transactions;
-
     public InMemoryTransactionDAO() {
         transactions = new LinkedList<>();
     }
